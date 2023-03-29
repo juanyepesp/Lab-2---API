@@ -2,6 +2,7 @@ from typing import Optional
 from fastapi import FastAPI
 import pandas as pd
 from DataModel import DataModel
+from joblib import load
 
 app = FastAPI()
 
